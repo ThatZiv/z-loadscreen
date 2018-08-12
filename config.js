@@ -6,6 +6,8 @@ var config = {
     "music": true,
     /* Insert the Youtube Video ID below */
     "videoID": "jo4-FhqkNwQ",
+    /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
+    "musicVolume": 70,
     "text": {
         "title": "My Arpee Server",
         "link": "discord.gg/yeet",
