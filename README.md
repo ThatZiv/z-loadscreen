@@ -4,8 +4,8 @@ My custom fork of **z-loadscreen**...
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png)
 
 ## __What's New?__
-* Added a Cross Section Blur to Add Info
-* Moved Logo + Loadbar to the Left to Accomodate Section
+* Added an Info Section
+* Made Switching From Logo to Plaintext Much Simpler
 ## __Installation__
 1. Download [Here](z-loadscreen/archive/master.zip).
 2. Add `start z-loadscreen` to your server.cfg
@@ -14,8 +14,11 @@ My custom fork of **z-loadscreen**...
 ## __Configuration__
 
 | *To Configure* | *How-To* |
-| ------- | ------ | 
-| **Footer text** | `Config.js` - Change the *string* under the object **text** and var **link**  |
+| ------- | ------ |
+| **Header text** | `Config.js` - Change the *string* under the object **text** and var **header**  | 
+| **Info text** | `Config.js` - Change the *string* under the object **text** and var **text**  |
+| **Use Logo/Text** | `Config.js` - To use text instead of a logo image, make *boolean* var **useLogo** false  | 
+| **Replacement text** *(Text used in place of logo)* | `Config.js` - Change the *string* under the object **text** and var **logotext**  | 
 | **Time to change to next image** | `Config.js` - Change the *integer*  under **imgInterval** (in milliseconds)  |
 | **Transition Time Length** *(how long the transition {fade} to next image lasts)*  | `Config.js` - Change the *integer*  under **transitionInterval** (in milliseconds)  |
 | **YouTube Audio Presence** | `Config.js` - To have no music at all, make *boolean* var **music** false |
@@ -37,7 +40,9 @@ var config = {
 "imgInterval": 8000,
 "music": true,
 "videoID": "jo4-FhqkNwQ",
+"useLogo": true;
 "text": {
+	"logotext": "My Arpee Server",
 	"title": "Header",
 	"text": "Text",
 },
@@ -68,14 +73,14 @@ var config = {
 - Logo
 - Presence of Music
 - The Transition Intervals
-- Header + text color
+- Header + text info color
 ## __Support__
-I may not be able to help out since this is mainly a personal thing, but if you think you have a problem feel free to open a new issue :)
+I may not be able to help out since this is mainly a personal thing, but if you think there is a problem feel free to open a new issue :)
 
 ## __Screenshots__
-![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png?raw=true)
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss3.png?raw=true)
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss2.png?raw=true)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png?raw=true)
 
 
 -------
