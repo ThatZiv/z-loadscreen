@@ -1,10 +1,10 @@
 # z-loadscreen: A Decent Looking Loading Screen.
-My custom fork of**z-loadscreen**...
+My custom fork of **z-loadscreen**...
 
-![alt-text](https://github.com/ThatZiv/z-loadscreen/blob/master/ss/ss2.png?raw=true)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/master/ss/ss1.png)
 
 ## __Installation__
-1. Download [Here](https://github.com/ThatZiv/z-loadscreen).
+1. Download [Here](z-loadscreen/archive/master.zip).
 2. Add `start z-loadscreen` to your server.cfg
  ## __Preview__
  https://youtu.be/fQqR_QEaXQQ
@@ -23,6 +23,9 @@ My custom fork of**z-loadscreen**...
 | **Amount of Blur to Background** | `Config.css` - Change var **--background-blur** (Higher *px*: more intense blur) |
 | **Height of Loadbar** | `Config.css` - Change var **--loadbar-height** (Higher *px*: higher the loadbar) |
 | **Background Color** *(The color that the image fades out to)* | `Config.css` - Change var **--fadeTo-Color** (hash color) [What is a Hash Color?](http://www.color-hex.com/ "What is a Hash Color?") |
+| **Header Color** | `Config.css` - Change var **--header-font-color** (hash color) [What is a Hash Color?](http://www.color-hex.com/ "What is a Hash Color?") |
+| **Text Color** | `Config.css` - Change var **--text-font-color** (hash color) [What is a Hash Color?](http://www.color-hex.com/ "What is a Hash Color?") |
+
 
 `config.js`
 ```js
@@ -32,8 +35,8 @@ var config = {
 "music": true,
 "videoID": "jo4-FhqkNwQ",
 "text": {
-	"title": "My Arpee Server",
-	"link": "discord.gg/yeet",
+	"title": "Header",
+	"text": "Text",
 },
 "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png']
 }
@@ -60,6 +63,7 @@ var config = {
 - Logo
 - Presence of Music
 - The Transition Intervals
+- Header + text color
 ## __Support__
 If you need any help/support, join my [discord](https://discordapp.com/invite/yWddFpQ) and ask in **#support**
 
