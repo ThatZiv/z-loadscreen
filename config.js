@@ -8,7 +8,7 @@ var config = {
     "videoID": "jo4-FhqkNwQ",
     /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
     "musicVolume": 70,
-	"useLogo": true,
+	"useLogo": false,
     "text": {
 		"logotext": "Header",
         "title": "Header",
