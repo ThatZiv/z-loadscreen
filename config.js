@@ -5,10 +5,9 @@ var config = {
     "imgInterval": 8000,
     "music": true,
     /* Insert the Youtube Video ID below */
-    //"videoID": "poKqspDfElw",
-    "videoID": "-uiv4zMtkxI",
+    "videoID": "jo4-FhqkNwQ",
     /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
-    "musicVolume": 25,
+    "musicVolume": 70,
     "text": {
         "title": "Header",
 		"text": "This is some explanation text showing border control of the screen<br><br><u>All HTML Elements should be supported;</u><br><br><li>Lists</li><br><i><b>Styled</b> <u>Text</u></i><br><br>Even images, if you want<br><img src='./imgs/bg1.png' style='width: 250px;'>",
