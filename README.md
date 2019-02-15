@@ -3,6 +3,9 @@ My custom fork of **z-loadscreen**...
 
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png)
 
+## __What's New?__
+* Added a Cross Section Blur to Add Info
+* Moved Logo + Loadbar to the Left to Accomodate Section
 ## __Installation__
 1. Download [Here](z-loadscreen/archive/master.zip).
 2. Add `start z-loadscreen` to your server.cfg
@@ -67,7 +70,7 @@ var config = {
 - The Transition Intervals
 - Header + text color
 ## __Support__
-If you need any help/support, join my [discord](https://discordapp.com/invite/yWddFpQ) and ask in **#support**
+I may not be able to help out since this is mainly a personal thing, but if you think you have a problem feel free to open a new issue :)
 
 ## __Screenshots__
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png?raw=true)
