@@ -53,6 +53,8 @@ var config = {
 --footer-font-color: #dfdfdf98;
 --footer-font-size: 24px;
 --fadeTo-Color: #222222;
+--header-font-color: #ffffff;
+--text-font-color: #ffffff;
 }
 ```
 ## __What's Configurable?__
