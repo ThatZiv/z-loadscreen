@@ -1,5 +1,5 @@
 # z-loadscreen: A Decent Looking Loading Screen.
-**z-loadscreen** is a loading screen....
+My custom fork of**z-loadscreen**...
 
 ![alt-text](https://github.com/ThatZiv/z-loadscreen/blob/master/ss/ss2.png?raw=true)
 
