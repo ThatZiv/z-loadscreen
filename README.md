@@ -70,9 +70,9 @@ var config = {
 If you need any help/support, join my [discord](https://discordapp.com/invite/yWddFpQ) and ask in **#support**
 
 ## __Screenshots__
-![alt-text](https://github.com/ThatZiv/z-loadscreen/blob/master/ss/ss1.png?raw=true)
-![alt-text](https://github.com/ThatZiv/z-loadscreen/blob/master/ss/ss3.png?raw=true)
-![alt-text](https://github.com/ThatZiv/z-loadscreen/blob/master/ss/ss2.png?raw=true)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png?raw=true)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss3.png?raw=true)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss2.png?raw=true)
 
 
 -------
