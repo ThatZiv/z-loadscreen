@@ -1,13 +1,14 @@
-/////////////////////////////////////////////
+/* Need Help? Join my discord @ discord.gg/yWddFpQ */
+
+// And yes... I know this is __very__ messy. 
 
 if (config.useLogo) {	// Checks for 'useLogo' boolean
-	document.getElementById('title').style.visibility = "hidden";
+	document.getElementById('title').style.display = "none";
 } else {
-	document.getElementById('title').innerHTML = config.text.logotext;
-	document.getElementById('logo').style.visibility = "hidden";
+	document.getElementById('title').innerHTML = config.text.title;
+	document.getElementById('logo').style.display = "none";
 }
-document.getElementById('header').innerHTML = config.text.title;	// Setting header + info text
-document.getElementById('text').innerHTML = config.text.text;
+document.getElementById('link').innerHTML = config.text.link;
 var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
 if (config.music === true) { 
  $("body").append(audio);
