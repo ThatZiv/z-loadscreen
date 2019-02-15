@@ -76,6 +76,7 @@ var config = {
 - Header + text info color
 ## __Support__
 I may not be able to help out since this is mainly a personal thing, but if you think there is a problem feel free to open a new issue :)
+If you want help for the original z-loadscreen, ThatZiv has a [Discord Server](discord.gg/yWddFpQ) for support.
 
 ## __Screenshots__
 ![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss2.png?raw=true)
