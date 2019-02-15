@@ -2,7 +2,12 @@
 
 // And yes... I know this is __very__ messy. 
 
-/* Uncomment for PLAIN TEXT (also uncomment title in index)  document.getElementById('title').innerHTML = config.text.title;  */
+if (config.useLogo) {	// Checks for 'useLogo' boolean
+	document.getElementById('title').style.display = "none";
+} else {
+	document.getElementById('title').innerHTML = config.text.title;
+	document.getElementById('logo').style.display = "none";
+}
 document.getElementById('link').innerHTML = config.text.link;
 var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
 if (config.music === true) { 
