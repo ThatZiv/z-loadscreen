@@ -1,4 +1,3 @@
-/* Need Help? Join my discord @ discord.gg/yWddFpQ */
 var config = {
     /* In milliseconds */
     "transitionInterval": 1250,
@@ -8,7 +7,7 @@ var config = {
     "videoID": "jo4-FhqkNwQ",
     /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
     "musicVolume": 70,
-	"useLogo": false,
+	"useLogo": true,
     "text": {
 		"logotext": "Header",
         "title": "Header",
