@@ -10,7 +10,7 @@ var config = {
     "musicVolume": 70,
     "text": {
         "title": "Header",
-		"text": "This is some explanation text showing border control of the screen<br><br><u>All HTML Elements should be supported;</u><br><br><li>Lists</li><br><i><b>Styled</b> <u>Text</u></i><br><br>Even images, if you want<br><img src='./imgs/bg1.png' style='width: 250px;'>",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     /* You dont have to include the '/imgs/' dir AND ALSO REMEMBER TO ADD THESE IMGS IN YOUR __resource.lua*/ 
     "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png']

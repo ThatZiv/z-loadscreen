@@ -26,6 +26,14 @@ body {
 	left: 15%;
 }
 
+#title {
+	position: absolute;
+	top: 41%;
+	left: 18%;
+	color: var(--header-font-color);
+	font-size: 75px;
+}
+
 .loadbar {
     border-radius: 25px;
     width: 48%;
