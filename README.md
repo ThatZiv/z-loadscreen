@@ -1,7 +1,7 @@
 # z-loadscreen: A Decent Looking Loading Screen.
 My custom fork of **z-loadscreen**...
 
-![alt-text](https://github.com/How-Bout-No/z-loadscreen/master/ss/ss1.png)
+![alt-text](https://github.com/How-Bout-No/z-loadscreen/blob/master/ss/ss1.png)
 
 ## __Installation__
 1. Download [Here](z-loadscreen/archive/master.zip).
